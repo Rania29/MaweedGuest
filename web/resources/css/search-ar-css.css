@@ -12,6 +12,7 @@ html, body{
 }
 
 div.main_div{
+    clear: both;
     display: block;
     width: 95%;
     margin: 0 auto;
@@ -24,12 +25,12 @@ h5{
 }
 .clnk-name{
     color: #55A6D7;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 .clnk-location{
     color: #013069;
-    font-size: 16px;
+    font-size: 15px;
 }
 .clnk-star-rating{
      color: orange;
@@ -41,13 +42,13 @@ h5{
     margin: 10px;
     padding: 5px;
     border-radius: 5px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .clnk-div img{
-    width: 160px;
-    height: 130px;
-    float: left;
+    width: 150px;
+    height: 100px;
+    float: right;
     background-color: #FFFFFF;
 }
 /**.clnk-div span{

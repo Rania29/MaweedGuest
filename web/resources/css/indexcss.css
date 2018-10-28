@@ -409,7 +409,7 @@ div.lower-footer h2{
            justify-content: center;
            align-items: center;
        }**/
- 
+
     div.container {
         background-color: inherit;
         width: 20%;
@@ -445,6 +445,7 @@ div.lower-footer h2{
         width: 80%;
         height: inherit;
         text-align: center;
+
     }
     /**Logo image*/
     .logo img{
@@ -480,6 +481,7 @@ div.lower-footer h2{
         display: inline-block;
         overflow: hidden;
         width: 100%;
+        margin-right: 3px;
         /**padding: 10px 20px;**/
     }
     .form-style input[type='text']{
@@ -555,17 +557,45 @@ div.lower-footer h2{
         width: 100%;
         height: 100px;
     }
-    /**Hamburger icon div*/
+    /**
     div.menu-icon{
         display: flex;
         float: left;
         width: 20%;
         height: inherit;
     }
-    /**Hamburger icon*/
+    
     .menu-icon{
         justify-content: center;
         align-items: center;
+    }**/
+
+    div.container {
+        background-color: inherit;
+        width: 20%;
+        float: left;
+        height: 100%;
+        display:block;
+        cursor: pointer;
+    }
+    nav.menu{
+        width: 50%;
+    }
+    .item_menu {
+        clear: both;
+        background-color: #F2F3F7;
+        text-align: center;
+        width:100%;
+        height: auto;
+        text-decoration: none;
+        color: #013069;
+        padding: 2px;
+        display: block;
+        border-bottom: 1px solid gray;
+    }
+    .item_menu:hover{
+        background-color: #55A6D7;
+        color: white;
     }
     /**div of Logo*/
     div.logo{
@@ -574,6 +604,7 @@ div.lower-footer h2{
         width: 80%;
         height: inherit;
         text-align: center;
+
     }
     /**Logo image*/
     .logo img{
@@ -582,6 +613,7 @@ div.lower-footer h2{
         width: 220px;
         height: 69px;
     }
+    
     div.search-box{
         clear: both;
         display: flex;
@@ -658,34 +690,61 @@ div.lower-footer h2{
     div.logo-header{
         height: 90px;
     }
-    /**Hamburger icon div*/
-    div.menu-icon{
-        display: flex;
-        float: left;
+    /**
+   div.menu-icon{
+       display: flex;
+       float: left;
+       width: 20%;
+       height: inherit;
+   }
+   
+   .menu-icon{
+       justify-content: center;
+       align-items: center;
+   }**/
+
+    div.container {
+        background-color: inherit;
         width: 20%;
-        height: inherit;
+        float: left;
+        height: 100%;
+        display:block;
+        cursor: pointer;
+        padding: 25px 40px;
     }
-    /**Hamburger icon*/
-    .menu-icon{
-        justify-content: center;
-        align-items: center;
+    nav.menu{
+        width: 50%;
+    }
+    .item_menu {
+        clear: both;
+        background-color: #F2F3F7;
+        text-align: center;
+        width:100%;
+        height: auto;
+        text-decoration: none;
+        color: #013069;
+        padding: 2px;
+        display: block;
+        border-bottom: 1px solid gray;
+    }
+    .item_menu:hover{
+        background-color: #55A6D7;
+        color: white;
     }
     /**div of Logo*/
     div.logo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         float: right;
-        width: 80%;
+        width: 40%;
         height: inherit;
+
     }
-    /**Logo image*/
     .logo img{
-        justify-content: center;
-        align-items: center;
-        width: 220px;
+        /*margin: 0px 40px;*/
+        width: 220px; 
         height: 69px;
-        margin-bottom: 12px;
+        vertical-align: middle;
+        margin-top: 15px;
+        margin-left: 45px;
     }
 
     div.search-box{
